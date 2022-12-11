@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%bsih0dox5!32=+177h(nc!h@dp@kia=r&579-dr4@3h69&58t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -74,14 +74,15 @@ WSGI_APPLICATION = 'portafolio.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Portafolio_JERG',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'Daiguren123.',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PASSWORD': 'EHpKNjLQaJ0fvoYvCN46',
+        'HOST': 'containers-us-west-151.railway.app',
+        'PORT': '6712',
     }
 }
 
